@@ -1,0 +1,17 @@
+{
+  "name": "serwer",
+  "version": "1.0.0",
+  "description": "opis",
+  "main": "server01.js",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "tracer": ">0.0.0",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pawel",
+  "license": "ISC"
+}

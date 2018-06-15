@@ -1,0 +1,246 @@
+#root {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    overflow-y: hidden;
+    background-color: #d1e2ba;
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    background-color: #ddedcb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mode {
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    background-color: #b8c6a5;
+    top: 40%;
+    left: 30%;
+    display:none;
+}
+#alt_mode{
+    
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        background-color: #b8c6a5;
+        top: 40%;
+        left: 30%;
+        display:block;
+    
+}
+#easy {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    width: 40%;
+    height: 25%;
+    border: 1px solid #4e9b4a;
+    background-color: #4e9b4a;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+#medium {
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    width: 40%;
+    height: 25%;
+    border: 1px solid #e0925e;
+    background-color: #e0925e;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+#extreme {
+    position: absolute;
+    left: 30%;
+    top: 75%;
+    width: 40%;
+    height: 25%;
+    border: 1px solid #bf464e;
+    background-color: #bf464e;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+#timer {
+    padding: 10px;
+    top: 0%;
+    left: 0%;
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    position: absolute;
+    background-color: #a8d1ff;
+    display: none;
+}
+
+#rekordy {
+    border: 2px solid black;
+    position: absolute;
+    width: 30%;
+    padding: 20px;
+    background-color: #b8c6a5;
+    top: 36%;
+    left: 35%;
+    display: none;
+}
+
+#nowy {
+    position: absolute;
+    width: 30%;
+    background-color: #b8c6a5;
+    top: 40%;
+    left: 35%;
+    display: none;
+    padding: 10px;
+}
+
+#czas_1 {
+    color: black;
+    margin: auto;
+}
+
+#stan {
+    padding: 10px;
+    top: 0%;
+    right: 0%;
+    width: 370px;
+    height: 90px;
+    border: 2px solid black;
+    position: absolute;
+    display: none;
+}
+
+.rekord {
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 85%
+}
+
+#nick_gracza {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    position: relative;
+    left: 7.5%;
+    border: 1px solid black;
+}
+
+#nick_gracza_label {
+    width: 80%;
+    font-size: 24px;
+    margin-left: auto;
+    top: 20px;
+    margin-right: auto;
+    text-align: center;
+}
+
+#submit {
+    border-radius: 25px;
+    border: 2px solid black;
+    position: relative;
+    left: 7.5%;
+    width: 85%;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#restart {
+    border-radius: 25px;
+    border: 2px solid black;
+    position: relative;
+    left: 7.5%;
+    width: 85%;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#komunikat {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#samouczek {
+    font-size: 24px;
+  margin: 0;
+  position: relative;
+    width: 50%;
+   
+    left: 32%;
+}
+#cel_gry{
+    width: 33%;
+    position: absolute;
+    left: 33%;
+    padding: 10px;
+    display: none;
+    border: 2px solid black;
+    margin-left: auto;
+   
+    margin-right: auto;
+    text-align: center;
+}
+#czas_pomoc{
+    padding: 10px;
+    top: 50px;
+    width: 20%;
+    left: 0%;
+    border: 2px solid black;
+    position: absolute;
+    background-color: #a8d1ff;
+    margin-left: auto;
+   
+    margin-right: auto;
+    text-align: center;
+    display:none;
+
+}
+#sterowanie{
+    padding: 10px;
+    top: 90px;
+    right: 0%;
+    width: 370px;
+    
+    background-color: #a8d1ff;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: auto;
+   
+    margin-right: auto;
+    text-align: center;
+    display: none;
+    
+}
+p{
+    font-size: 20px;
+}
+.hide{
+    font-style: italic;
+    font-size: 15px;
+}
+#logo{
+    position: relative;
+    width: 25%; 
+    left: 36%;
+}

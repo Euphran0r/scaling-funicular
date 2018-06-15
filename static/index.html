@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HSTG3</title>
+    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+
+    <script src="jquery.js"></script>
+    <script src="three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script src="Models.js"></script>
+    <script src="Settings.js"></script>
+    
+    <script src="Game.js"></script>
+    <script src="Net.js"></script>
+    <script src="Main.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+        <img id="logo" src="logo.png" alt="Smiley face" >
+        <div id="alt_mode"><h1 id="komunikat">Czekanie na połączenie drugiego gracza.</h1></div>
+    <div id="mode">
+        <button id="easy">
+            Easy
+        </button>
+        <button id="medium">
+            Medium
+        </button>
+        <button id="extreme">
+            Extreme
+        </button>
+        
+
+<h1 id="komunikat"> Czy włączyć podpowiedzi?    <input id="tutorial" type="checkbox"> </h1>  
+
+    </div>
+    <div id="timer">
+        <h1 id="czas_1">
+            <span id="czas">0</span>s</h1>
+    </div>
+    <div id="rekordy">
+        <h1 class="rekord">Top 5:</h1>
+
+    </div>
+    <div id="stan">
+        <h1 id="kolor"></h1>
+        <h1 id="difff"></h1>
+    </div>
+    <div id="nowy">
+        <h1 id="nick_gracza_label"> Podaj nick</h1>
+        <input id="nick_gracza" type="text" maxlength="10" name="nick_gracza">
+        
+        <button id="submit">Zapisz</button>
+    </div>
+    <div id="cel_gry"><P>Celem gry jest połączenie rur, tak aby rura przepłynęła z punktu początkowego, który zawsze znajduję się w lewym górnym rogu, do punktu końcowego, który znajduję się w pobliżu prawego górnego rogu. Współpracuj z drugim graczem w celu odniesienia sukcesu w jak najkrótszym czasie.</P><p class="hide">Aby ukryć podpowiedź naciśnij tutaj</p></div>
+    <div id="sterowanie"><p>Aby obrócić daną rurę po prostu ją naciśnij, pamiętaj jednak, że możesz poruszać tylko rury, które należą do Ciebie. Swój kolor możesz zawsze sprawdzić w prawym górnym rogu.</p><p class="hide">Aby ukryć podpowiedź naciśnij tutaj</p></div>
+    <div id="czas_pomoc"><p>Powyżej zobaczyć możecie swój aktualny czas. Nie martw się, nie możesz przegrać. Najlepsze wyniki zostaną jednak zapisane w tablicy wyników.</p><p class="hide">Aby ukryć podpowiedź naciśnij tutaj</p></div>
+    <div id="root">
+
+    </div>
+</body>
+
+</html>
